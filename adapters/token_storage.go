@@ -4,8 +4,9 @@ import (
 	"context"
 	"encoding/json"
 	"github.com/hanoys/sigma-music-auth/ports"
-	"github.com/hanoys/sigma-music-auth/util"
 	"github.com/hanoys/sigma-music-core/domain"
+	"github.com/hanoys/sigma-music-core/util"
+	"github.com/redis/go-redis/v9"
 	"time"
 )
 
