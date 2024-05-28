@@ -3,10 +3,9 @@ package adapters
 import (
 	"context"
 	"encoding/json"
-	"github.com/hanoys/sigma-music/internal/adapters/auth/ports"
-	"github.com/hanoys/sigma-music/internal/domain"
-	"github.com/hanoys/sigma-music/internal/util"
-	"github.com/redis/go-redis/v9"
+	"github.com/hanoys/sigma-music-auth/ports"
+	"github.com/hanoys/sigma-music-auth/util"
+	"github.com/hanoys/sigma-music-core/domain"
 	"time"
 )
 

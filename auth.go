@@ -2,13 +2,11 @@ package auth
 
 import (
 	"context"
-	"github.com/hanoys/sigma-music/internal/adapters/auth/ports"
-	"github.com/hanoys/sigma-music/internal/domain"
-	serviceports "github.com/hanoys/sigma-music/internal/ports"
-	"github.com/hanoys/sigma-music/internal/util"
+	"github.com/hanoys/sigma-music-auth/ports"
+	"github.com/hanoys/sigma-music-auth/util"
+	"github.com/hanoys/sigma-music-core/domain"
+	serviceports "github.com/hanoys/sigma-music-core/ports"
 	"time"
-
-	"github.com/golang-jwt/jwt/v4"
 )
 
 type JWTClaims struct {
